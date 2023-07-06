@@ -244,9 +244,8 @@ main {
 .prev-btn,
 .next-btn {
   color: var(--clr-primary-7);
-  font-size: 1.25rem;
   background: transparent;
-  border-color: transparent;
+  border-color: solid;
   margin: 0 0.5rem;
   transition: var(--transition);
   cursor: pointer;
