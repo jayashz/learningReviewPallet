@@ -65,6 +65,7 @@ nextBtn.addEventListener('click',function(){
   }
   showPerson(currentItem);
 });
+
 //showing the previous person
 prevBtn.addEventListener('click',function(){
   currentItem--;
@@ -73,9 +74,11 @@ prevBtn.addEventListener('click',function(){
   }
   showPerson(currentItem);
 });
+
 //showing any random person
 randomBtn.addEventListener('click',function(){
-  currentItem= math.floor(math.random()*4);
-  showPerson[currentItem];
+  currentItem= Math.floor(Math.random()*review.length);
+  showPerson(currentItem);
+
   
 });
